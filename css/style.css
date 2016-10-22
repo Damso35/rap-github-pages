@@ -1,0 +1,121 @@
+body { 
+	color: #193441;
+	background-color: #FAFAFA;
+	background-repeat: no-repeat;
+	font-family: 'Raleway', sans-serif;
+	}
+
+h1	{
+	font-family: 'Arvo';
+}
+
+a{
+	color: #193441;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	opacity: 0.7;
+	}
+#enceinte {
+	padding: 4px;
+	border: 1px solid grey;
+	border-radius: 15px
+}
+
+
+.corps{
+	margin-left: 50px;
+	margin-right: 50px;
+	padding-left: 50px;
+	padding-right: 50px;
+	background-color: #FAFAFA;
+	border-radius: 15px 15px 15px 15px;
+
+}
+
+}
+.staff{
+
+	background-color: #FFFFFF;
+	margin: 50px;
+	padding: 50px;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid grey;
+}
+
+}
+.par {
+	background-color: white;
+	border-radius: 15px 15px 15px 15px;
+	border: 1px solid grey;
+}
+.tof {
+	list-style-type: none;
+	border-radius: 50%;
+	box-shadow: 2px 2px 3px grey;
+	transition: all 0.2s linear;
+   -webkit-transition: all 0.2s linear;
+}
+.tof:hover {
+	opacity: 0.8;
+	 transform: rotate(10deg) scale(1.1);
+  -webkit-transform: rotate(10deg) scale(1.1)
+}
+.staff > ul > li {
+	display: inline;
+	padding: 2em;
+
+}
+.staff > ul > li span {
+	visibility: hidden;
+}
+.tof:hover + span {
+	visibility: visible;
+
+}
+.re {
+	font-size: 30px;
+}
+#logo {
+	width: 40px;
+	margin-bottom: 20px;
+}
+#footer {
+	background-color: #111111;
+	padding-top: 3em;
+	padding-bottom: 3em;
+	color: #aaaaaa;
+}
+#footer a {
+	color: #aaaaaa;
+}
+.corps {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+.navbar-transparent {
+	background-color: rgba(0, 52, 112, 0.7);
+}
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 30px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: rgb((0, 52, 112);
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: rgb((0, 52, 112);
+}
