@@ -26,10 +26,8 @@ a:hover {
 
 
 .corps{
-	margin-left: 50px;
-	margin-right: 50px;
-	padding-left: 50px;
-	padding-right: 50px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 	background-color: #FAFAFA;
 	border-radius: 15px 15px 15px 15px;
 
@@ -90,10 +88,6 @@ a:hover {
 }
 #footer a {
 	color: #aaaaaa;
-}
-.corps {
-	padding-top: 100px;
-	padding-bottom: 100px;
 }
 .navbar-transparent {
 	background-color: rgba(0, 52, 112, 0.7);
