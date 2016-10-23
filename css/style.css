@@ -7,10 +7,10 @@ body {
 
 h1	{
 	font-family: 'Arvo';
+	font-size: 40px;
 }
 
 a{
-	color: #193441;
 	text-decoration: none;
 }
 
@@ -42,12 +42,8 @@ a:hover {
 	border-radius: 15px 15px 15px 15px;
 	border: 1px solid grey;
 }
-
-}
 .par {
-	background-color: white;
-	border-radius: 15px 15px 15px 15px;
-	border: 1px solid grey;
+	margin: 20px;
 }
 .tof {
 	list-style-type: none;
@@ -76,10 +72,6 @@ a:hover {
 .re {
 	font-size: 30px;
 }
-#logo {
-	width: 40px;
-	margin-bottom: 20px;
-}
 #footer {
 	background-color: #111111;
 	padding-top: 3em;
@@ -88,6 +80,22 @@ a:hover {
 }
 #footer a {
 	color: #aaaaaa;
+}
+#logo {
+	width: 30px;
+}
+#bods {
+	background-image: url("../images/tunnel.jpg");
+	height: 800px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 150px;
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+#bods a {
+	color: white;
+	text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5)
 }
 .navbar-transparent {
 	background-color: rgba(0, 52, 112, 0.7);
